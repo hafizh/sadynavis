@@ -1,0 +1,2 @@
+serviceClass: vis.dyna.client.ParseCSVService
+path: 9770C1C6D97E1EE37178BCA996EBBF4E.gwt.rpc

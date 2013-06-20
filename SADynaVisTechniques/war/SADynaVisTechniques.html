@@ -1,0 +1,349 @@
+<!doctype html>
+<!-- The DOCTYPE declaration above will set the     -->
+<!-- browser's rendering engine into                -->
+<!-- "Standards Mode". Replacing this declaration   -->
+<!-- with a "Quirks Mode" doctype is not supported. -->
+
+<html>
+  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<!--This file has been created with freemind2html.xsl-->
+	<head>
+	<link rel="stylesheet" href="static_files/freemind2html.css" type="text/css"/>
+	<link type="text/css" rel="stylesheet" href="static_files/freemind2html.css">
+		<title>Dynamic visualization</title>
+	<script type="text/javascript" language="javascript" src="sadynavistechniques/sadynavistechniques.nocache.js"></script>
+	<script type="text/javascript"><!--
+          
+               function toggle(id)
+               {
+                   div_el = document.getElementById(id);
+                   img_el = document.getElementById('img'+id);
+                   if (div_el.style.display != 'none')
+                   {
+          
+					
+                      div_el.style.display='none';
+                      img_el.src = 'static_files/show.png';
+          
+                   }
+                   else
+                   {
+          
+                      div_el.style.display='block';
+                      img_el.src = 'static_files/hide.png';
+          
+                   };
+               };
+          
+          --></script></head><body><h1>
+    
+      Techniques
+    
+  </h1><div style="width:96%;  padding:2%;  margin-bottom:10px;  border: 0px;  text-align:center;  vertical-align:center;"><img src="static_files/image.png" style="margin-bottom:10px; &#9;border: 0px; &#9;text-align:center; &#9;vertical-align:center;" alt="Imagemap" usemap="#fm_imagemap"/></div><map name="fm_imagemap" id="fm_imagemap"><area shape="rect" href="#FMID_451942195FM" alt="Techniques" title="Techniques" coords="940,621,1052,675" /><area shape="rect" href="#FMID_222920684FM" alt="Dealing with scalability" title="Dealing with scalability" coords="1070,625,1253,652" /><area shape="rect" href="#FMID_55798857FM" alt="Scrolling" title="Scrolling" coords="1283,306,1366,333" /><area shape="rect" href="#FMID_965320864FM" alt="Offscreen vis." title="Offscreen vis." coords="1396,303,1509,330" /><area shape="rect" href="#FMID_451657144FM" alt="Collapse/expand" title="Collapse/expand" coords="1304,383,1441,410" /><area shape="rect" href="#FMID_530742149FM" alt="Repetitions" title="Repetitions" coords="1471,352,1569,379" /><area shape="rect" href="#FMID_417029259FM" alt="Loops" title="Loops" coords="1471,383,1531,410" /><area shape="rect" href="#FMID_1757032827FM" alt="Sub-trees(in call stack)" title="Sub-trees(in call stack)" coords="1471,414,1648,441" /><area shape="rect" href="#FMID_67277055FM" alt="Filtering" title="Filtering" coords="1335,460,1412,487" /><area shape="rect" href="#FMID_1180720057FM" alt="Filtered expantion" title="Filtered expantion" coords="1442,445,1589,472" /><area shape="rect" href="#FMID_362396609FM" alt="Projection &amp; removal" title="Projection &amp; removal" coords="1442,476,1610,503" /><area shape="rect" href="#FMID_1694303630FM" alt="Hiding" title="Hiding" coords="1347,528,1412,555" /><area shape="rect" href="#FMID_640057706FM" alt="Library calls" title="Library calls" coords="1442,513,1546,540" /><area shape="rect" href="#FMID_441515947FM" alt="UI calls" title="UI calls" coords="1442,544,1513,571" /><area shape="rect" href="#FMID_369401433FM" alt="Pattern Matching" title="Pattern Matching" coords="1344,609,1485,636" /><area shape="rect" href="#FMID_467846232FM" alt="Collaboration Pattern" title="Collaboration Pattern" coords="1515,594,1685,621" /><area shape="rect" href="#FMID_968491990FM" alt="Collaboration instance" title="Collaboration instance" coords="1515,625,1694,652" /><area shape="rect" href="#FMID_440320819FM" alt="Abstraction" title="Abstraction" coords="1367,727,1465,754" /><area shape="rect" href="#FMID_150379634FM" alt="Grouping" title="Grouping" coords="1505,702,1589,729" /><area shape="rect" href="#FMID_1940440792FM" alt="Horizontal(Objects)" title="Horizontal(Objects)" coords="1619,656,1772,683" /><area shape="rect" href="#FMID_595829206FM" alt="Vertical(Calls)" title="Vertical(Calls)" coords="1619,702,1736,729" /><area shape="rect" href="#FMID_1148752369FM" alt="Call Compression" title="Call Compression" coords="1766,687,1907,714" /><area shape="rect" href="#FMID_154642239FM" alt="Partitioning of calls" title="Partitioning of calls" coords="1766,718,1922,745" /><area shape="rect" href="#FMID_737707319FM" alt="Importance-Based Anty Aliasing" title="Importance-Based Anty Aliasing" coords="1619,749,1864,776" /><area shape="rect" href="#FMID_1538621169FM" alt="Trow away" title="Trow away" coords="1513,790,1606,817" /><area shape="rect" href="#FMID_1560946109FM" alt="Slicing" title="Slicing" coords="1376,857,1445,884" /><area shape="rect" href="#FMID_427894893FM" alt="Single-step mode" title="Single-step mode" coords="1475,854,1618,881" /><area shape="rect" href="#FMID_982625392FM" alt="Statistics" title="Statistics" coords="1370,938,1451,965" /><area shape="rect" href="#FMID_343203886FM" alt="Visualization" title="Visualization" coords="808,625,918,652" /><area shape="rect" href="#FMID_1698639228FM" alt="2D" title="2D" coords="722,460,760,487" /><area shape="rect" href="#FMID_738522042FM" alt="Graphs" title="Graphs" coords="404,218,472,245" /><area shape="rect" href="#FMID_853712293FM" alt="Tree" title="Tree" coords="323,79,374,106" /><area shape="rect" href="#FMID_664815833FM" alt="Call tree" title="Call tree" coords="215,64,293,91" /><area shape="rect" href="#FMID_1378860204FM" alt="Execution Pattern view" title="Execution Pattern view" coords="3,33,185,60" /><area shape="rect" href="#FMID_813729530FM" alt="Reference pattern view" title="Reference pattern view" coords="3,64,185,91" /><area shape="rect" href="#FMID_1453742983FM" alt="Program traces view" title="Program traces view" coords="24,95,185,122" /><area shape="rect" href="#FMID_916253591FM" alt="Tree map" title="Tree map" coords="206,126,293,153" /><area shape="rect" href="#FMID_345808952FM" alt="Dependency graph" title="Dependency graph" coords="221,281,374,308" /><area shape="rect" href="#FMID_1105982716FM" alt="Map metaphor view" title="Map metaphor view" coords="33,157,191,184" /><area shape="rect" href="#FMID_1861306888FM" alt="Polymetric view" title="Polymetric view" coords="60,188,191,215" /><area shape="rect" href="#FMID_874009172FM" alt="Circular bundle view" title="Circular bundle view" coords="27,219,191,246" /><area shape="rect" href="#FMID_881763413FM" alt="interaction graph" title="interaction graph" coords="51,250,191,277" /><area shape="rect" href="#FMID_1881615319FM" alt="3D-HEB(also in 3D)" title="3D-HEB(also in 3D)" coords="38,281,191,308" /><area shape="rect" href="#FMID_359449275FM" alt="Sequence context view" title="Sequence context view" coords="6,312,191,339" /><area shape="rect" href="#FMID_1299233505FM" alt="Histogram view" title="Histogram view" coords="66,343,191,370" /><area shape="rect" href="#FMID_367893376FM" alt="Markov chains" title="Markov chains" coords="72,374,191,401" /><area shape="rect" href="#FMID_1745930670FM" alt="State chart" title="State chart" coords="95,405,191,432" /><area shape="rect" href="#FMID_1659469231FM" alt="Plots" title="Plots" coords="401,467,454,494" /><area shape="rect" href="#FMID_1660817882FM" alt="Histogram view" title="Histogram view" coords="246,436,371,463" /><area shape="rect" href="#FMID_1022331580FM" alt="Box display" title="Box display" coords="272,467,371,494" /><area shape="rect" href="#FMID_762870705FM" alt="Call context ring chart(CCRC)" title="Call context ring chart(CCRC)" coords="144,498,371,525" /><area shape="rect" href="#FMID_1967280962FM" alt="Interaction diagrams" title="Interaction diagrams" coords="387,705,551,732" /><area shape="rect" href="#FMID_1493539556FM" alt="Sequence diag" title="Sequence diag" coords="229,566,357,593" /><area shape="rect" href="#FMID_146982451FM" alt="Temporal message flow diag." title="Temporal message flow diag." coords="130,597,357,624" /><area shape="rect" href="#FMID_1919691352FM" alt="Scene diagram" title="Scene diagram" coords="229,628,357,655" /><area shape="rect" href="#FMID_615899577FM" alt="Transaction flows view" title="Transaction flows view" coords="180,659,357,686" /><area shape="rect" href="#FMID_1072953348FM" alt="SCED sequence diagram" title="SCED sequence diagram" coords="160,690,357,717" /><area shape="rect" href="#FMID_1142085404FM" alt="Information mural" title="Information mural" coords="213,783,357,810" /><area shape="rect" href="#FMID_1642658575FM" alt="Pattern mural" title="Pattern mural" coords="69,721,183,748" /><area shape="rect" href="#FMID_1060461406FM" alt="Massive sequence view" title="Massive sequence view" coords="0,752,183,779" /><area shape="rect" href="#FMID_224215365FM" alt="Execution bar" title="Execution bar" coords="66,783,183,810" /><area shape="rect" href="#FMID_357213544FM" alt="Code viewer" title="Code viewer" coords="78,814,183,841" /><area shape="rect" href="#FMID_1615047706FM" alt="Execution view" title="Execution view" coords="53,852,179,879" /><area shape="rect" href="#FMID_1407001426FM" alt="Matrix" title="Matrix" coords="426,970,488,997" /><area shape="rect" href="#FMID_1600879502FM" alt="Pattern Matrix" title="Pattern Matrix" coords="279,893,396,920" /><area shape="rect" href="#FMID_1257797156FM" alt="Class association diag." title="Class association diag." coords="217,924,396,951" /><area shape="rect" href="#FMID_463470612FM" alt="Scatter matrix" title="Scatter matrix" coords="279,955,396,982" /><area shape="rect" href="#FMID_1889693146FM" alt="Package fingerprint" title="Package fingerprint" coords="240,986,396,1013" /><area shape="rect" href="#FMID_969840807FM" alt="VDP" title="VDP" coords="346,1017,396,1044" /><area shape="rect" href="#FMID_678722088FM" alt="Box display(a.i. Plots)" title="Box display(a.i. Plots)" coords="226,1048,396,1075" /><area shape="rect" href="#FMID_50058547FM" alt="3D" title="3D" coords="722,1138,760,1165" /><area shape="rect" href="#FMID_2016373FM" alt="CodeCity" title="CodeCity" coords="495,1092,578,1119" /><area shape="rect" href="#FMID_1885772318FM" alt="Code Map" title="Code Map" coords="488,1129,580,1156" /><area shape="rect" href="#FMID_85988659FM" alt="Cone tree" title="Cone tree" coords="490,1163,577,1190" /><area shape="rect" href="#FMID_142639485FM" alt="3D-HEB(also in dependence graph)" title="3D-HEB(also in dependence graph)" coords="312,1201,581,1228" /></map>
+
+<div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N65543&quot;)" id="imgN65543"/><a id="FMID_451942195FM"/><div class="nodecontent" style="color:#000000;font-size:83%;">
+    <p id="0">
+      Techniques
+    </p>
+  </div>
+  <div class="content" id="N65543"><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N66373&quot;)" id="imgN66373"/><a id="FMID_343203886FM"/><div class="nodecontent" style="color:#0033ff;font-size:83%;">
+    <p id="0">
+      Visualization
+    </p>
+  </div><div class="content" id="N66373"><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N66404&quot;)" id="imgN66404"/><a id="FMID_1698639228FM"/><div class="nodecontent" style="color:#00b439;font-size:83%;">
+    <p id="0">
+      2D
+    </p>
+  </div><div class="content" id="N66404"><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N66434&quot;)" id="imgN66434"/><a id="FMID_738522042FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="0">
+      Graphs
+    </p>
+  </div><div class="content" id="N66434"><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N66464&quot;)" id="imgN66464"/><a id="FMID_853712293FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="0">
+      Tree
+    </p>
+  </div><div class="content" id="N66464"><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N66492&quot;)" id="imgN66492"/><a id="FMID_664815833FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="7">
+      Call tree
+    </p>
+  </div><div class="content" id="N66492"><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1378860204FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="8">
+      Execution Pattern view
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_813729530FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="9">
+      Reference pattern view
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1453742983FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="10">
+      Program traces view
+    </p>
+  </div></div></div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_916253591FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="26">
+      Tree map
+    </p>
+  </div></div></div></div><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N66638&quot;)" id="imgN66638"/><a id="FMID_345808952FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="11">
+      Dependency graph
+    </p>
+  </div><div class="content" id="N66638"><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1105982716FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="12">
+      Map metaphor view
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1861306888FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="14">
+      Polymetric view
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_874009172FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="15">
+      Circular bundle view
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_881763413FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="13">
+      Interaction graph
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1881615319FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="16">
+      3D-HEB(also in 3D)
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_359449275FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="17">
+      Sequence context view
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1299233505FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="18">
+      Histogram view
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_367893376FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="19">
+      Markov chains
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1745930670FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="20">
+      State chart
+    </p>
+  </div></div></div></div></div></div><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N66929&quot;)" id="imgN66929"/><a id="FMID_1659469231FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="0">
+      Plots
+    </p>
+  </div><div class="content" id="N66929"><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1660817882FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="0">
+      Histogram plot
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1022331580FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="32">
+      Box display(also in matrix)
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_762870705FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="28">
+      Call context ring chart(CCRC)
+    </p>
+  </div></div></div></div><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N67047&quot;)" id="imgN67047"/><a id="FMID_1967280962FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="1">
+      Interaction diagrams
+    </p>
+  </div><div class="content" id="N67047"><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1493539556FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="2">
+      Sequence diag
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_146982451FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="3">
+      Temporal message flow diag.
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1919691352FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="4">
+      Scene diagram
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_615899577FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="5">
+      Transaction flows view
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1072953348FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="6">
+      SCED sequence diagram
+    </p>
+  </div></div><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N67222&quot;)" id="imgN67222"/><a id="FMID_1142085404FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="21">
+      Information mural
+    </p>
+  </div><div class="content" id="N67222"><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1642658575FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="36">
+      Pattern mural
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1060461406FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="23">
+      Massive sequence view
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_224215365FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="24">
+      Execution bar
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_357213544FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="25">
+      Code viewer
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1615047706FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="22">
+      Execution view
+    </p>
+  </div></div></div></div></div></div><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N67399&quot;)" id="imgN67399"/><a id="FMID_1407001426FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="0">
+      Matrix
+    </p>
+  </div><div class="content" id="N67399"><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1600879502FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="35">
+      Pattern Matrix
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1257797156FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="31">
+      Class association diag.
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_463470612FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="0">
+      Scatter matrix
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1889693146FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="33">
+      Package fingerprint
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_969840807FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="34">
+      VDP
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_678722088FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="32">
+      Box display(a.i. Plots)
+    </p>
+  </div></div></div></div></div></div><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N67605&quot;)" id="imgN67605"/><a id="FMID_50058547FM"/><div class="nodecontent" style="color:#00b439;font-size:83%;">
+    <p id="0">
+      3D
+    </p>
+  </div><div class="content" id="N67605"><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_2016373FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="30">
+      CodeCity
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1885772318FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="29">
+      Code Map
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_85988659FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="27">
+      Cone tree
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_142639485FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="16">
+      3D-HEB(also in dependence graph)
+    </p>
+  </div></div></div></div></div></div>
+  <div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N65571&quot;)" id="imgN65571"/><a id="FMID_222920684FM"/><div class="nodecontent" style="color:#0033ff;font-size:83%;">
+    <p id="0">
+      Dealing with scalability
+    </p>
+  </div><div class="content" id="N65571"><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N65602&quot;)" id="imgN65602"/><a id="FMID_55798857FM"/><div class="nodecontent" style="color:#00b439;font-size:83%;">
+    <p id="0">
+      Scrolling
+    </p>
+  </div><div class="content" id="N65602"><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_965320864FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="37">
+      Offscreen vis.
+    </p>
+  </div></div></div></div><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N65661&quot;)" id="imgN65661"/><a id="FMID_451657144FM"/><div class="nodecontent" style="color:#00b439;font-size:83%;">
+    <p id="0">
+      Collapse/expand
+    </p>
+  </div><div class="content" id="N65661"><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_530742149FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="0">
+      Repetitions
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_417029259FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="0">
+      Loops
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1757032827FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="0">
+      Sub-trees(in call stack)
+    </p>
+  </div></div></div></div><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N65778&quot;)" id="imgN65778"/><a id="FMID_67277055FM"/><div class="nodecontent" style="color:#00b439;font-size:83%;">
+    <p id="0">
+      Filtering
+    </p>
+  </div><div class="content" id="N65778"><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1180720057FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="0">
+      Filtered expantion
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_362396609FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="41">
+      Projection and removal
+    </p>
+  </div></div></div></div><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N65866&quot;)" id="imgN65866"/><a id="FMID_1694303630FM"/><div class="nodecontent" style="color:#00b439;font-size:83%;">
+    <p id="0">
+      Hiding
+    </p>
+  </div><div class="content" id="N65866"><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_640057706FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="0">
+      Library calls
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_441515947FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="0">
+      UI calls
+    </p>
+  </div></div></div></div><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N65955&quot;)" id="imgN65955"/><a id="FMID_369401433FM"/><div class="nodecontent" style="color:#00b439;font-size:83%;">
+    <p id="0">
+      Pattern Matching
+    </p>
+  </div><div class="content" id="N65955"><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_467846232FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="44">
+      Collaboration Pattern
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_968491990FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="43">
+      Collaboration instance
+    </p>
+  </div></div></div></div><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N66044&quot;)" id="imgN66044"/><a id="FMID_440320819FM"/><div class="nodecontent" style="color:#00b439;font-size:83%;">
+    <p id="0">
+      Abstraction
+    </p>
+  </div><div class="content" id="N66044"><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N66074&quot;)" id="imgN66074"/><a id="FMID_150379634FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="0">
+      Grouping
+    </p>
+  </div><div class="content" id="N66074"><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1940440792FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="0">
+      Horizontal(Objects)
+    </p>
+  </div></div><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N66133&quot;)" id="imgN66133"/><a id="FMID_595829206FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="0">
+      Vertical(Calls)
+    </p>
+  </div><div class="content" id="N66133"><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1148752369FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="39">
+      Call Compression
+    </p>
+  </div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_154642239FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="40">
+      Partitioning of calls
+    </p>
+  </div></div></div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_737707319FM"/><div class="nodecontent" style="color:#111111;font-size:83%;">
+    <p id="38">
+      Importance-Based Anty Aliasing
+    </p>
+  </div></div></div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_1538621169FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="0">
+      Trow away
+    </p>
+  </div></div></div></div><div class="node"><img src="static_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N66281&quot;)" id="imgN66281"/><a id="FMID_1560946109FM"/><div class="nodecontent" style="color:#00b439;font-size:83%;">
+    <p id="0">
+      Slicing
+    </p>
+  </div><div class="content" id="N66281"><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_427894893FM"/><div class="nodecontent" style="color:#990000;font-size:83%;">
+    <p id="42">
+      Single-step mode
+    </p>
+  </div></div></div></div><div class="node"><img src="static_files/leaf.png" class="hideshow" alt="leaf"/><a id="FMID_982625392FM"/><div class="nodecontent" style="color:#00b439;font-size:83%;">
+    <p id="0">
+      Statistics
+    </p>
+  </div></div></div></div>
+  
+  </div></div>
+</body></html>
